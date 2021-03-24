@@ -1,7 +1,28 @@
 {
     "name": "landofcoder/module-seo-hreflang",
-    "license": ["OSL-3.0", "AFL-3.0"],
+    "description": "Seo Hreflang Extension",
     "type": "magento2-module",
+    "require": {
+        "landofcoder/module-opengraph": "1.0.0"
+    },
+    "version": "1.0.0",
+    "homepage": "https://landofcoder.com",
+    "keywords": [
+        "landofcoder",
+        "landofcoder seo toolkit",
+        "magento 2 seo Hreflang extension"
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Lof",
+            "email": "landofcoder@gmail.com",
+            "role": "Magento 2 Extension Provider"
+        }
+    ],
     "autoload": {
         "files": ["registration.php"],
         "psr-4": {

@@ -7,7 +7,7 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="Lof_SeoHreflang::config_seo" title="Lof Seo"/></resource>
+                            <resource id="Lof_SeoHreflang::config_seo" title="Lof Seo Tookit Hreflang"/></resource>
                     </resource>
                 </resource>
             </resource>
