@@ -11,21 +11,21 @@
             <resource>Lof_SeoHreflang::config_seo</resource>
             <group id="configuration" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Configuration</label>
-                <field id="hreflang_tags_enabled" translate="label" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="0">
+                <field id="hreflang_tags_enabled" translate="label" type="select" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Hreflang Tags</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     <comment>
                         <![CDATA[Hreflang tags help the search engines to select best language version of the shop for incoming users. <a href="https://support.google.com/webmasters/answer/189077" target="_blank" rel=”noopener”>Read more</a>.]]>
                     </comment>
                 </field>
-                <field id="hreflang_scope" translate="label" type="select" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0">
+                <field id="hreflang_scope" translate="label" type="select" sortOrder="45" showInDefault="1" showInWebsite="0" showInStore="0">
                     <label>Hreflang Scope</label>
                     <source_model>Lof\SeoHreflang\Model\Config\Source\HreflangScope</source_model>
                     <comment>
                         <![CDATA[Global - hreflang links will be displayed for all store views from all websites.<br/>Store Group - hreflang links will be displayed only for store views from current store group.]]>
                     </comment>
                 </field>
-                <field id="x_default" translate="label" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                <field id="x_default" translate="label" type="select" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>X-Default</label>
                     <source_model>Lof\SeoHreflang\Model\Config\Source\XDefault</source_model>
                     <comment>
