@@ -1,0 +1,11 @@
+{
+    "name": "landofcoder/module-seo-hreflang",
+    "license": ["OSL-3.0", "AFL-3.0"],
+    "type": "magento2-module",
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Lof\\SeoHreflang\\": ""
+        }
+    }
+}
